@@ -1,0 +1,21 @@
+{
+	"name": "sellastica/reverse-charge",
+	"homepage": "https://github.com/sellastica/reverse-charge",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Tomáš Krejčí",
+			"homepage": "http://www.sellastica.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Sellastica\\ReverseCharge\\": "src/"
+		}
+	}
+}
